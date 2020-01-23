@@ -5,6 +5,7 @@ production:
 
      options:
        connect_timeout: 15
+       retry_writes: false
 
 development:
   # Configure available database clients. (required)
